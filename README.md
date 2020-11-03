@@ -1,11 +1,14 @@
+
 # One of my test task
 This repository contains an embedded web application that interacts with the MS SQL database
+
+![alt text](https://i.ibb.co/3SzgctS/List.png)
 # Getting Started
 
 ### 1.Edit WebAPI config
 Settings are located in appsettings.json.
 
-* In file [appsettings.json](https://github.com/trueStape/testTask/blob/master/TestTaskForScience/appsettings.json) file, change the connection to the Server DataBase(variable "Server=").
+* In file [appsettings.json](https://github.com/trueStape/TestTask_SoftLine/blob/main/TestTaskSoftLine/appsettings.json) file, change the connection to the Server DataBase(variable "Server=").
 ```
 For example : "TestTaskDb": "Server=DESKTOP-0000000;Database=TestTask;Trusted_Connection=True;MultipleActiveResultSets=true"
 ```
