@@ -1,0 +1,71 @@
+﻿label {
+    width: 10em;
+    float: left;
+    margin-right: 0.5em;
+    display: block;
+    vertical-align: middle;
+}
+
+.submit {
+    float: right;
+}
+
+fieldset {
+    padding: 10px;
+    background: #EBF4FB none repeat scroll 0 0;
+    border: 2px solid #B7DDF2;
+    width: 450px;
+    margin: 10px;
+}
+
+legend {
+    color: #000FFC;
+    background: #00D3FC;
+    border: 1px solid #781351;
+    padding: 10px;
+    margin: 10px;
+}
+
+.elements {
+    padding: 10px;
+}
+
+p {
+    border-bottom: 1px solid #B7DDF2;
+    color: #666666;
+    font-size: 12px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+span {
+    color: #666666;
+    font-size: 12px;
+    margin-bottom: 1px;
+}
+.p-title {
+    position: relative;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+}
+
+.p-title:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: #ccc;
+}
+
+.p-title:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 80px;
+    height: 5px;
+    background: #327AFC;
+    z-index: 1;
+}
